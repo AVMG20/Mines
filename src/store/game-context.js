@@ -21,7 +21,7 @@ export const GameContextProvider = (props) => {
     const [firstGame, setFirstGame] = useState(true);
     const [isRunning, setRunning] = useState(false);
     const [cashout, setCashout] = useState(false);
-    const [money, setMoney] = useState(5000);
+    const [money, setMoney] = useState(10);
     const [gameData, setGameData] = useState({bet:0, bombs:3});
 
     const startGame = (data) => {
