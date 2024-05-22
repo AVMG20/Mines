@@ -13,7 +13,7 @@ function CashoutModal() {
         <div className={styles.cashoutModal}>
             <h1 className={styles.multiplier}>{multiplier}x</h1>
             <div className={styles.divider}></div>
-            <p className={styles.reward}>${addCommas(reward)}</p>
+            <p className={styles.reward}>€{addCommas(reward)}</p>
         </div>
     );
 }

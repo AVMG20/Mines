@@ -44,7 +44,21 @@
   padding-left: 4px;
 }
 
-.startButton {
+.cashOutButton {
+  height: 3rem;
+  background-color: #007bff;
+  border-radius: 3px;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+}
+
+.cashOutButton:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.betButton {
   height: 3rem;
   background-color: #00e800;
   border-radius: 3px;
@@ -53,8 +67,22 @@
   font-size: 15px;
 }
 
-.startButton:hover {
-  background-color: #1cff21;
+.betButton:hover {
+  background-color: #00b800;
+  cursor: pointer;
+}
+
+.cancelButton {
+  height: 3rem;
+  background-color: #ff4d4d;
+  border-radius: 3px;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+}
+
+.cancelButton:hover {
+  background-color: #ff0000;
   cursor: pointer;
 }
 

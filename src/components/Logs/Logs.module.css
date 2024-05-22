@@ -1,0 +1,52 @@
+.logsContainer {
+    color: #e5e5e5;
+    padding: 0 1rem;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logsList {
+    max-height: 590px; /* Adjust based on your layout needs */
+    overflow-y: auto;
+}
+
+.winLog, .loseLog {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    color: #e5e5e5; /* Light color for text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.winLog {
+    background: #1a2c38;
+    border-color: rgb(0, 232, 0, 0.80); /* Transparent green for wins */
+    color: rgb(0, 232, 0);
+}
+
+.loseLog {
+    background: #1a2c38;
+    border-color: rgba(232, 0, 0, 0.9); /* Transparent red for losses */
+    color: rgba(232, 0, 0);
+}
+
+.toggleLogs {
+    background: #1a2c38;
+    width: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    color: #e5e5e5;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+

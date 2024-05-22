@@ -19,7 +19,7 @@ function Tile(props) {
         if (!isClicked) {
             if (props.bomb) {
                 playExposion();
-                ctx.endGame();
+                ctx.endGame(false);
             } else {
                 ctx.addGem();
                 playSuccess();
